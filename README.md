@@ -1,5 +1,5 @@
-# kirbi-dice module
-A module for [Kirbi](https://github.com/richardson-media-house/kirbi), that adds a command to perform various dice rolls.
+# doorman-dice module
+A module for [Doorman](https://github.com/FabricLabs/doorman), that adds a command to perform various dice rolls.
 
 ## Usage
 

@@ -1,6 +1,6 @@
 const d20 = require('d20');
 
-module.exports = function (Kirbi) {
+module.exports = function (Doorman) {
 	return {
 		commands: [
 			'roll'
@@ -28,7 +28,7 @@ module.exports = function (Kirbi) {
 
 					cb({
 						embed: {
-							color: Kirbi.Config.discord.defaultEmbedColor,
+							color: Doorman.Config.discord.defaultEmbedColor,
 							description: `${response}`
 						}
 					}, msg);
